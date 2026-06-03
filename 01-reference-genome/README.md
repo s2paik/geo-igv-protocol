@@ -80,12 +80,14 @@ ls -lh Homo_sapiens.GRCh38.115.MANE.gtf
 ```
 
 ### How grep works here:
+```
 grep 'tag "MANE_Select"' input.gtf > output.gtf
 |         |                |            |
 |         |                |            +-- write results to this new file
 |         |                +-- the file to search through
 |         +-- the text pattern to find (lines containing this exact string)
 +-- the command: search for lines matching a pattern
+```
 Only lines containing the text `tag "MANE_Select"` are kept. Everything else
 (non-MANE isoforms, predicted transcripts) is discarded.
 
