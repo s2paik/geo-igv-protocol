@@ -111,6 +111,7 @@ head -1 Homo_sapiens.GRCh38.115.MANE.ucsc.gtf
 ```
 
 ### How sed works here:
+```
 sed 's/^([0-9XYM])/chr\1/' input > output
 |   |  |       |      |   |
 |   |  |       |      |   +-- \1 = whatever was matched inside ( )
@@ -120,7 +121,7 @@ sed 's/^([0-9XYM])/chr\1/' input > output
 |   +-- s/find/replace/ = substitution command
 +-- stream editor: processes text line by line
 ---
-
+```
 ## Step 4: Sort and index with IGVTools
 
 IGV needs sorted and indexed files for fast navigation.
