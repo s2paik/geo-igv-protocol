@@ -21,10 +21,11 @@ The dataset contains ATAC-seq, CUT&Tag (H3K4me3, H3K27me3, H3K27ac), and SMART-s
 | Folder | Contents | Status |
 |--------|----------|--------|
 | 01-reference-genome/ | Download Ensembl GRCh38 FASTA, filter GTF to MANE_Select, fix chr prefix, sort and index for IGV | Available |
-| 02-geo-data-download/ | Navigate GEO, identify file types (bigwig, FPKM, BAM), download supplementary files | Coming soon |
+| 02-geo-data-download/ | Navigate GEO, identify file types (bigwig, FPKM, BAM), download supplementary files | Available |
 | 03-expression-analysis/ | Annotated Python script for FPKM heatmap and line plots | Available |
-| 04-igv-visualization/ | Load genome and tracks, navigate to genes, interpret ATAC-seq and histone marks | Coming soon |
-| resources/ | Ensembl vs UCSC naming, FPKM normalization caveats, useful links | Coming soon |
+| 04-igv-visualization/ | Load genome and tracks, navigate to genes, interpret ATAC-seq and histone marks, CIITA case study | Available |
+| 05-gene-explorer/ | Interactive gene search tool with alias support (CLI + Google Colab) | Available |
+| resources/ | Ensembl vs UCSC naming, FPKM normalization caveats, useful links | Available |
 
 ---
 
